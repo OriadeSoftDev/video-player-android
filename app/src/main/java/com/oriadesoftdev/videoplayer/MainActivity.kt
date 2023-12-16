@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
             setMediaController(mediaController)
             setVideoURI(
                 Uri.parse(
-                    "android.resource://$packageName/raw/math_numeric_and_logical_operator"))
+                    "android.resource://$packageName/raw/draw_any_polygon"))
             requestFocus()
         }.start()
     }
